@@ -5,9 +5,11 @@ public class MyClass {
     /**
      *  поля - состяние
      */
-    private int x;
-    private int y;
+    private int x = 1;
+    private int y = 1;
+    private double z = 1.2;
     private String name;
+    private boolean d = true;
 
     /**
      * методы - поведение

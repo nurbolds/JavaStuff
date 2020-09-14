@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        int x;
+        int x, y=1;
         x=10;
 
         // System.out.println(x);
@@ -22,6 +22,14 @@ public class Main {
 
         myObject.setX(65);
         // System.out.println(myObject.getX());
+
+        /**
+         * основные арифметические опреации
+         */
+        System.out.println(x*y);
+        System.out.println(x+y);
+        System.out.println(x-y);
+        System.out.println(x/y);
 
         /**
          * ДЗ: 1. Создать класс "Car" с полями: диаметр колеса, максимальная скорость, цвет.
