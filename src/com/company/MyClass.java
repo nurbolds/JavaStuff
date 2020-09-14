@@ -7,6 +7,7 @@ public class MyClass {
      */
     private int x;
     private int y;
+    private String name;
 
     /**
      * методы - поведение
@@ -17,6 +18,14 @@ public class MyClass {
 
     public void setX(int value){
         x = value;
+    }
+
+    public void setName(String nameValue){
+        name = nameValue;
+    }
+
+    public String getName(){
+        return name;
     }
 
 }
